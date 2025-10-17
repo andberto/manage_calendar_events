@@ -25,9 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'com.fantastic.manage_calendar_events'
-    }
+    
+    namespace 'com.fantastic.manage_calendar_events'
 
     compileSdk 33
 
